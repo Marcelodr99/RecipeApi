@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Api</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class = "main-header">
+        <div class = "header-div">
+            <ul class = "main-nav">
+                <li>Recipe API</li>
+                <!-- <li>Search Menu Items</li> -->
+            </ul>
+            <div class ="button-header">
+             
+            </div>
+        </div>
+    </header>
+    <div class = "body-background">
+        
+        <div class = "body-div ">
+            <form class = "formDes" id = "formId">
+                <input id = "radioInput1"  class = "radioStyle" name = "inputRadio" value = "radioInput1" type = "radio" checked>
+                <label for="radioInput1">Keyword</label>
+                <input id = "radioInput2" class = "radioStyle" name = "inputRadio" value = "radioInput2" type = "radio">
+                <label for="radioInput2">Ingredient</label>
+
+                <input id = "inputFilter" class = "inputcss" placeholder="Enter Food Keywords">
+                <button class = "order-button" id = "mealSearch">Search</button>  <br><br>  
+                 
+            </form>
+            <div class = 'imgdisplay'></div>
+            <!-- <form class = "formDes" id = "formId2">
+                <input id = "ingredients" class = "inputcss" placeholder="Enter Recipes">
+                <button class = "order-button" id = "recipeSearch">Search</button>  
+                 <p class = 'imgdisplay'></p>
+            </form> -->
+
+            <div id = "myModal" class = "modal">
+                <div id = "modalInner" class = "modal-content">
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    
+    <script src = "api.js"></script>
+</body>
+</html>

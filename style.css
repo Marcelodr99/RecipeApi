@@ -1,0 +1,220 @@
+.main-header, 
+.main-nav, 
+.header-div,
+.button-header,
+.body-background
+{
+    display: flex;
+}
+button {
+    border-radius: 12%;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+/*
+Header
+*/
+.main-header {
+    width: auto;
+    height: 15vh;
+   
+    background-color: rgb(255, 255, 255);
+}
+.header-div{
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font: 15px 'Orbitron', sans-serif;
+    
+}
+
+.button-header{
+    width: 16%;
+    justify-content: space-between;
+}
+.header-img{
+    width: 10%;
+    height: 13%;
+    margin: auto;
+    margin-left: 10%;
+}
+.order-button {
+    height: 2rem;
+    width:14vh;
+    padding: 5%, 10%;
+    background-color: rgb(255, 255, 255);
+    color: green;
+    margin:auto;
+    font: 500 0.7rem 'Orbitron', sans-serif;
+    border: 1.5px solid rgb(4, 77, 4);
+}
+.order-button:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+/* body first section */
+.main-nav{
+    margin-top: 3rem;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+li{
+    list-style: none;
+    margin: 0.5rem;
+    font-size: 2rem;
+   
+}
+
+.body-background{
+    background-image: url(img/foodimage.png);
+    background-size:cover;
+    background-repeat: no-repeat; 
+   
+}
+.body-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%; 
+    min-height: 100vh;
+    height: 100%;
+    margin-left: 10%;
+    font-family: 'Orbitron', sans-serif;
+}
+.body-h1{
+    font-size: 1.4rem;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    color:rgb(18, 116, 51);
+    letter-spacing: 0.1rem;
+}
+.order-button-2 {
+    height: 10%;
+    width:18%;
+    padding: 0;
+    background-color: rgb(32, 167, 77);
+    color: white;
+    margin-left:10%;
+    font: 100% 'Orbitron', sans-serif;
+}
+
+
+.inputcss {
+    width: 50%;
+    min-height: 3vh;
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 1%;
+    border-radius: 10%;
+    color:rgb(73, 73, 73);
+    text-indent: 1.1rem;
+    font-family: 'Orbitron', sans-serif;
+    border: 0.1rem solid rgb(75, 71, 71);
+}
+
+
+
+
+.submit-button {
+    height: 10%;
+    width:6%;
+    padding: 0;
+    background-color: rgb(42, 165, 73);
+    color: white;
+    font: 100% 'Orbitron', sans-serif;
+}
+
+.mealImage {
+    max-height: 140px;
+    max-width: 180px;
+    /* border: 1px solid rgb(15, 0, 0); */
+    border-radius: 5px 5px 0 0;
+}
+.mealImage:hover{ 
+    
+    cursor: pointer;
+}
+
+#mealSearch {
+    margin-top: 11px;
+}
+.formDes {
+    height: 100%;
+}
+#formId, #formId2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 1.3rem;
+    
+    
+}
+.modal-content {
+    background-color:rgb(226, 226, 169);
+    margin: 15% auto;
+    margin-top: 15%; 
+    padding: 20px;
+    border: 1px solid #073007;
+    width: 50%;
+    color:rgb(4, 48, 4)
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.foodTitle {
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+.innerCard {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 180px;
+  border-radius: 5px;
+  background-color: white;
+}
+.innerCard:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.radioStyle {
+    margin-right: 0%;
+}
